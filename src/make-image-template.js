@@ -30,3 +30,5 @@ function makeImageTemplate(image) {
 }
 
 export default makeImageTemplate;
+
+//installed travis on github.
