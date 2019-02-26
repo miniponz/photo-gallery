@@ -18,7 +18,7 @@ function makeImageTemplate(image) {
     const html = `            
     <li class="${hornClass} ${image.keyword}">
         <h2>${image.title}</h2>
-        <img src="${image.url}">
+        <img src="${image.url}" alt="${image.description}">
         <p>${image.description}</p>
     </li>`;
 

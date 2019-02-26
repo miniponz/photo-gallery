@@ -22,7 +22,7 @@ test('function makes template from list of images', assert => {
     assert.htmlEqual(dom, `            
     <li class="tiny narwhal">
         <h2>firey dragon</h2>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Smaug_par_David_Demaret.jpg/290px-Smaug_par_David_Demaret.jpg">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Smaug_par_David_Demaret.jpg/290px-Smaug_par_David_Demaret.jpg" alt="Not as fierce as I look">
         <p>Not as fierce as I look</p>
     </li>`
     );
