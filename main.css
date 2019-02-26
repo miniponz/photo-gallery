@@ -1,9 +1,7 @@
-
-
 h1 {
     text-align: center;
     color:  #319d9d;
-    background-color: #dce6e8;
+    background-color: #ceb6b6;
     padding-top: 15px;
     padding-bottom: 15px;
     margin: auto;
@@ -24,11 +22,22 @@ li {
     border: solid#319d9d 2px;
     border-radius: 5px;
     margin: 5px;
-    background-color: #319d9d;
-    color: #dce6e8;
+    color: #ceb6b6
 }
 
 img {
     width: 300px;
 
+}
+
+.tiny {
+    background-color: 	#bae1e6;
+}
+
+.medium {
+    background-color: #319d9d;
+}
+
+.large {
+    background-color: #eef5fa;
 }

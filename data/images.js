@@ -123,21 +123,21 @@ const images = [
         'title': 'Serious Jackson\'s Chameleon',
         'description': 'This one is very serious.',
         'keyword': 'chameleon',
-        'horns': 3
+        'horns': 4
     },
     {
         'url': 'https://www.nps.gov/band/learn/nature/images/short-horned-lizard-open-mouth-18.jpg?maxwidth=650&autorotate=false',
         'title': 'Horned Lizard',
         'description': 'Fave food: ants',
         'keyword': 'lizard',
-        'horns': 100
+        'horns': 10
     },
     {
         'url': 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Smaug_par_David_Demaret.jpg/290px-Smaug_par_David_Demaret.jpg',
         'title': 'Smaug',
         'description': 'Fan illustration of Smaug from \'The Hobbit\'',
         'keyword': 'dragon',
-        'horns': 100
+        'horns': 12
     }
 ];
 
