@@ -1,18 +1,25 @@
 function makeImageTemplate(image) {
-    let imageClass = "";
+    let hornClass = " ";
     if(image.horns < 2) {
-        imageClass = 'tiny';
+        hornClass = 'tiny';
     }
     else if(image.horns === 2) {
-        imageClass = 'medium';
+        hornClass = 'medium';
     }
     else if(image.horns > 2) {
-        imageClass = 'large';
+        hornClass = 'large';
     }
+
+    // let narwhal = " ";
+    // if(image.keyword === 'narwhal'){
+    //     narwhal = 'narwhal';
+    // }
+
     const html = `            
-    <li class="${imageClass}">
+    <li class="${hornClass} ${image.keyword}">
         <h2>${image.title}</h2>
         <img src="${image.url}">
+        <p>${image.description}</p>
     </li>`;
 
 

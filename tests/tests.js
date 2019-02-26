@@ -8,6 +8,8 @@ QUnit.module('templates');
 test('function makes template from list of images', assert => {
     //arrange
     const image = {
+        keyword: 'narwhal',
+        description: 'Not as fierce as I look',
         horns: 1,
         title: 'firey dragon',
         url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Smaug_par_David_Demaret.jpg/290px-Smaug_par_David_Demaret.jpg'
@@ -18,9 +20,10 @@ test('function makes template from list of images', assert => {
 
     //assert   
     assert.htmlEqual(dom, `            
-    <li class="tiny">
+    <li class="tiny narwhal">
         <h2>firey dragon</h2>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Smaug_par_David_Demaret.jpg/290px-Smaug_par_David_Demaret.jpg">
+        <p>Not as fierce as I look</p>
     </li>`
     );
 });
