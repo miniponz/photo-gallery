@@ -1,23 +1,8 @@
 import './html-equal.js';
+import makeImageTemplate from '../src/make-image-template.js';
 
 const test = QUnit.test;
 QUnit.module('templates');
-
-function makeImageTemplate(image) {
-    const html = `            
-    <li>
-        <h2>${image.title}</h2>
-        <img src="${image.url}">
-    </li>`
-
-    const template = document.createElement('template');
-    template.innerHTML = html;
-
-    return template.content;
-}
-
-
-
 
 
 test('function makes template from list of images', assert => {
